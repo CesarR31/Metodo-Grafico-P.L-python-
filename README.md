@@ -27,7 +27,7 @@ Las funciones auxiliares para hacer los cálculos son:
 El programa recibe los datos en la forma canónica, como entrada un arreglo de nx2 formado por los coeficientes de las rectas que forman las restricciones, recibe el numero de restricciones del programa lineal, además recibe otro arreglo de mx1 con los coeficientes de recursos, también recibe los coeficientes de la función objetivo y se le debe de indicar si se desea maximizar o minimizar el programa lineal 
 Ejemplo de datos de entrada al programa:
 ```xml
-=np.array([[6,4],[1,2],[-1,1],[0,1]])#2xn
+a=np.array([[6,4],[1,2],[-1,1],[0,1]])#2xn
 c=np.array([24,6,1,2])#1xn
 n=4;# numero de Restricciones
 minimizar=False;#Si es minimo = true, si es maximo = false
