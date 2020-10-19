@@ -39,6 +39,9 @@ Ejemplo de salida del programa
 El punto optimo es: [3.0, 1.5]
 El valor en el punto Optimo es: 21.0
 ```
+
+![ejemplo](foo.png "ejemplo")
+
 Implementación de la función principal:
 ```xml
 Punto_Optimo, Valor_Punto_Optimo = Metodo_Grafico(a, c, n, minimizar, z)
